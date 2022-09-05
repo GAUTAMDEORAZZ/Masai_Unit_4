@@ -1,0 +1,5 @@
+An interface that has no member thats means there are no field and no method  inside that interface then it is called marker interface
+Example-
+public interface Serializable{
+
+}

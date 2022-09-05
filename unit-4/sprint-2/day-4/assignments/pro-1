@@ -1,0 +1,34 @@
+What is used of this and super keyword in java explain with example?
+in java , super keyword is used to access methods of the parent class  While this keyword used to access the methods of the current class
+example of this keyword -
+class Student{
+int a=10;
+int b=20;
+public void sum(){
+   int c=this.a+this.b;
+   system.out.println(+c)
+}
+public static void main(){
+ Student obj=new Student();
+ obj.sum();
+}
+example of super keyword :
+
+
+
+class Parent{
+int a=10;
+int b=20;
+public void sum(){
+   int c=this.a+this.b;
+   system.out.println(+c)
+}
+
+class Child extends Parent{
+ public void sum(){
+  system.out.println(super.a,super.b)
+  }
+public static void main(){
+ Child obj=new sum();
+ obj.sum();
+}

@@ -1,0 +1,4 @@
+
+Methode overloading -method overloading is a compile time polymorphism.It helps to increase readiabilityy of the programe,it occurs within the class.Method overloading may or may not be require inheritance . Main important part Method overloading must have same name and differnet argument 
+
+methode overriding;method overriding is runtime polymorphism it impleted by class it performes two classess.

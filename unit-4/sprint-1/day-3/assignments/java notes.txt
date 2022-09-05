@@ -1,0 +1,22 @@
+What is the difference between the static and the non-static variables of a class explain it with an example?
+Ans:
+Static variabbles:-
+1.A static variable is declared using the static keyword.    
+2. Memory is allocated at the run-time when the class is loaded and only once. However, final keyword can be used to show that the value of a static variable remains the same after initialization.
+3.The static as well as non-static methods can access a static variable.
+4.A static variable is common to every object of the class.
+5.It is like a global variable, available to all.
+Above all, the class name is used to access the static variable outside the class.
+
+eg:-
+ static int roll=20;
+
+Non-Static Variables:-
+ 1.A non-static variable is declared as a regular variable.
+ 2. Memory is allocated when a new object is created. However, each time a new object is created new memory space is allotted which can lead to wastage of memory.
+3.The static methods cannot use a non-static variable.
+4.A non-static variable is accessible to its instance(where it is defined).
+5.It is a local variable and available to object of the class.
+Accessing a non-static variable is done using the reference to the instance where it is declared.
+
+eg-int roll=20;

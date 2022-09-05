@@ -1,0 +1,11 @@
+q1- 
+JDK- 1. JDK stands for java devlopment kit to develop java appliation in java .JDK is platform depended thats means for different platform diffent JDK tool is needed.
+As JDK is responsible for prime development so its cotains tools for debugging and monioring java application.
+
+JRE; JRE stand sfor Java run time enviornment it define software pakages. JRE is also plateform depended
+
+JVM: JVM stands for Java virtual machin thats execute java byte code during java run time. JVM is platform independet.
+
+
+q4. static variables; belongs to class . Can access using class name memeber Name. static variable initialize default value at the time of class loading 
+    non -static variables: belongs to obkject . Can be access by objectname , member name . defalt value initialize when object creation.

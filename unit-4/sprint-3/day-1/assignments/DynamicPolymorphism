@@ -1,0 +1,3 @@
+It is process in which call a override method  at runtime rather than compile time.
+In this process a overridden method is called by a reference variable of super class.In this process
+object is used as a reference variables.
